@@ -1,0 +1,54 @@
+body {
+    background: url('../Image/BackgroundLogin&Registrasi.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+input {
+    width: 250px;
+  }
+
+input[type="text"] {
+    translate: 0px 3px;
+    height: 25px;
+    width: 60%;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+input[type="text"]::placeholder {
+    padding: 2px;
+    font-size: 18px;
+}
+
+input[type="password"] {
+    translate: 0px 3px;
+    height: 25px;
+    width: 60%;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+input[type="password"]::placeholder {
+    padding: 2px;
+    font-size: 18px;
+}
+
+button[type="submit"] {
+    height: 35px;
+    width: 63%;
+    border-radius: 25px;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(177, 3, 177);
+}
+
+form {
+    width: 42.5%;
+    translate: 135% 65%;
+}

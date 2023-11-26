@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha38LOLO4-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../AllCSS/styleDashboard1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kodchasan:wght@200&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Sidebar With Bootstrap</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark" style="position: fixed; width: 100%;">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="color: white;">
+            <img src="../Image/LogoUNNES1.png" width="45" style="margin-left: 25px; margin-right: 3px;">
+            <b style="font-family: 'Kodchasan', sans-serif; color: white;"><i> Arta UNNES</i></b>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link text-light btn-1" aria-current="page" href="../Login&Registrasi/login.php" style="font-family: 'Kodchasan', sans-serif;"><b>Login</b></a>
+              <a class="nav-link text-light btn-1" aria-current="page" href="../Login&Registrasi/registrasi.php" style="font-family: 'Kodchasan', sans-serif;"><b>Sign Up</b></a>
+              <a class="nav-link btn-1" href="profil.php"><img src="../Image/LogoProfile.png" width="30"></a>
+            </div>
+          </div>
+        </div>
+    </nav>
+  </header>
+
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <div class="h-100">
+                <div class="sidebar-logo btn-2">
+                    <a href="coba.html"><img src="../Image/LogoHome.png" width="18"> Beranda</a>
+                </div>
+                <!-- Sidebar Navigation -->
+                <ul class="sidebar-nav">
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed btn-2" data-bs-toggle="collapse" data-bs-target="#pages"
+                            aria-expanded="false" aria-controls="pages">
+                            <i class="fa-regular fa-file-lines pe-2"></i>
+                            <b>Data Arsip</b>
+                        </a>
+                        <ul id="pages" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item btn-1">
+                                <a href="#visi-misi" class="sidebar-link">Visi Misi Tujuan Strategi</a>
+                            </li>
+                            <li class="sidebar-item btn-1">
+                                <a href="#tata-pamong" class="sidebar-link">Tata Pamong</a>
+                            </li>
+                            <li class="sidebar-item btn-1">
+                                <a href="Kemahasiswaan.html" class="sidebar-link">Kemahasiswaan</a>
+                            </li>
+                            <li class="sidebar-item btn-1">
+                                <a href="SDM.html" class="sidebar-link">Sumber Daya Manusia</a>
+                            </li>
+                            <li class="sidebar-item btn-1">
+                                <a href="Keuangan.html" class="sidebar-link">Keuangan</a>
+                            </li>
+                            <li class="sidebar-item btn-1">
+                                <a href="Pendidikan.html" class="sidebar-link">Pendidikan</a>
+                            </li>
+                            <li class="sidebar-item btn-1">
+                                <a href="Penelitian.html" class="sidebar-link">Penelitian</a>
+                            </li>
+                            <li class="sidebar-item btn-1">
+                                <a href="Pengabdian.html" class="sidebar-link">Pengabdian</a>
+                            </li>
+                            <li class="sidebar-item btn-1">
+                                <a href="Luaran.html" class="sidebar-link">Luaran</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <!-- Main Component -->
+        <div class="main">
+            <div class="container mt-5">
+                <div class="row justify-content-center mt-3">
+                  <div class="col-lg-6" id="searchResults"></div>
+                </div>
+              </div>
+            <br>
+            <main class="content px-3 py-2">
+                <div class="container-fluid">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="IMG/Gerbang Unnes.jpg" class="d-block" width="140%">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="IMG/bm.jpg" class="d-block" width="960px">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="IMG/Gerbang Unnes.jpg" class="d-block" width="960px">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <br>
+                    <div id="visi-misi" style="color: white;">
+                        <h4>Visi Misi Tujuan Strategi</h4>
+                        <hr class="line">
+                        <div>
+                            <p>Senin</p>
+                            <ul type="square" id="senin">
+                                <li><b><i>Yahya</i></b></li>
+                                <li>Ara</li>
+                                <li>Aziz</li>
+                                <li>Danis</li>
+                                <li>Dinda</li>
+                                <li>Dirada</li>
+                                <li>Reno</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Selasa</p>
+                            <ul type="square">
+                                <li>Wildan</li>
+                                <li>Aji</li>
+                                <li>Radit</li>
+                                <li>Rayhan</li>
+                                <li>Naja</li>
+                                <li>Vania</li>
+                                <li>Rizka</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Rabu</p>
+                            <ul type="square">
+                                <li>Satura</li>
+                                <li>Umar</li>
+                                <li>Sean</li>
+                                <li>Nabil</li>
+                                <li>Nayla</li>
+                                <li>Nadifa</li>
+                                <li>Sabrina</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Kamis</p>
+                            <ul type="square">
+                                <li>Ata</li>
+                                <li>Najib</li>
+                                <li>Najwa</li>
+                                <li>Yoga</li>
+                                <li>Rizal</li>
+                                <li>Rafa</li>
+                                <li>Andhika</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Jum'at</p>
+                            <ul type="square">
+                                <li>Zachdan</li>
+                                <li>Jhesaya</li>
+                                <li>Pasya</li>
+                                <li>Helga</li>
+                                <li>Anin</li>
+                                <li>Iryad</li>
+                                <li>Ridho</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+<footer>
+    <div class="tentang bg-dark">
+        <img src="../Image/LogoUNNES2.png" width="360px" style="margin-left: 50px; margin-top: -100px;">
+        <h3>Kampus UNNES</h3>
+        <h3>Sekaran Gunungpati Semarang</h3>
+        <h3>50229</h3>
+        <h3>Jawa Tengah, Indonesia</h3>
+        <div class="sosmed" style="width: 30%; translate: 5px;" >
+            <a href="https://www.facebook.com/universitasnegerisemarang">
+                <img src="../Image/LogoFacebook.png" width="27px" height="27px" class="btn-3">
+            </a>
+            <a href="https://www.instagram.com/unnes_semarang/" target="_blank">
+                <img src="../Image/LogoInstagram.png" width="32px" height="32px" class="btn-3">
+            </a>
+            <a href="https://twitter.com/unneskonservasi/" target="_blank">
+                <img src="../Image/LogoTwitter.png" width="32px" height="32px" class="btn-3">
+            </a>
+        </div>
+    </div>
+</footer>
+</html>
+
+<script>
+    const toggler = document.querySelector(".btn");
+    toggler.addEventListener("click",function(){
+        document.querySelector("#sidebar").classList.toggle("collapsed");
+    });
+    
+    function search() {
+        var searchInput = document.getElementById('searchInput').value.toLowerCase();
+        var searchResults = document.getElementById('searchResults');
+    
+        // Logika pencarian sederhana
+        if (searchInput === 'contoh') {
+          searchResults.innerHTML = '<p>Hasil pencarian untuk kata kunci "contoh".</p>';
+        } else {
+          searchResults.innerHTML = '<p>Tidak ada hasil pencarian.</p>';
+        }
+    }
+</script>
